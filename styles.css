@@ -33,6 +33,7 @@
     display:flex;
     justify-content: center;
     align-items:flex-end;
+    
 }
 
 
@@ -74,12 +75,15 @@
 }
 
 @media (max-width:1440px) {
+    .container {
+        width:100%;
+    }
 
 }
 
 @media (max-width:375px) {
 
-    .two {
+    .container {
         width:100%
         
     }
